@@ -55,6 +55,7 @@ margin-bottom: 50px;
 }
 .employeeDirectoryLink{
     margin-left: 282px;
+    color: whitesmoke
 }
 .employeeTracker{
 background-image: url("portfoliogifs/employeeTracker.gif");
@@ -63,6 +64,7 @@ margin-left: 300px;
 }
 .employeeTrackerLink{
     margin-left: 180px;
+    color: whitesmoke
 
 }
 
@@ -74,6 +76,7 @@ margin-left: 300px;
 }
 .InnerJoinLink{
  margin-left: 180px;
+ color: whitesmoke
 
   
 }
@@ -88,6 +91,7 @@ margin-left: 300px;
 .PassGenLink{
 margin-left: 110px;
    position: absolute;
+   color: whitesmoke
 }
 
 .TakeAHike{
@@ -101,6 +105,7 @@ margin-left: 110px;
 }
 .TakeAHikeLink{
    margin-left: 60px;
+   color: whitesmoke
 }
 
 .Weather{
@@ -112,5 +117,72 @@ margin-left: 110px;
 }
 .WeatherLink{
     margin-left:143px;
+    color: whitesmoke
 }
 
+.buttonRow{
+    margin-top: 100px;
+    width: 200px;
+    height: 100px;
+    background-color:  rgba(255, 0, 0, 0);
+    color: whitesmoke;
+    border: none;
+    box-shadow: 0px 0px 48px whitesmoke;
+    border-radius: 25px;
+    
+   
+}
+
+.resume{
+margin-left: 160px;
+}
+
+.linkedin{
+margin-left: 425px;
+}
+.github{
+margin-left: 160px;
+}
+.buttontext{
+    color: whitesmoke;
+}
+
+@media only screen and (max-width: 1200px){
+.portfoliocardtop{
+    margin-left:18.5%; 
+
+}
+.linkedin{
+    margin-left: 283px;
+}
+.github{
+    margin-left: 110px;
+}
+.resume{
+    margin-left: 110px;
+}
+}
+
+@media only screen and (max-width: 1000px){
+    .portfoliocardtop{
+        margin-left:12%; 
+    }
+    .linkedin{
+        margin-left: 228px;
+    }
+    .github{
+        margin-left: 50px;
+    }
+    .resume{
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .portfoliocardtop{
+        margin-left:5%; 
+    }
+    .linkedin{
+        margin-left: 110px;
+    }
+}

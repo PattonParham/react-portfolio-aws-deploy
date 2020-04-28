@@ -72,45 +72,16 @@ const Portfolio = () => {
                 </Row>
                 
                 </div>
-                {/* <div> */}
-            {/* <div className="bottomRowLinks">
+                
 
-                <Row>
-                    <Col size="sm">
-                <a href = "https://jackjewell.github.io/TakeAHike//" className="TakeAHikeLink">Take A Hike</a>
-                </Col>
-                <Col size="sm">
-                <a href = "https://pattonparham.github.io/Weather-Dashboard/" className="WeatherLink">Weather Dashboard</a>
-                </Col>
-                <Col size="sm">
-                <a href = "https://pattonparham.github.io/Password-Generator/" className="PassGenLink">Password Generator</a>
-                </Col>
-                </Row>
-            </div> */}
-            {/* <div className="portfoliocardbottom">
-            <Row className="bottomRow">
-                    <Col size="sm">
-                    
-                <div className="TakeAHike bottomgif"></div>
-                
-                </Col>
-                <Col size="sm">
-                
-                <div className="Weather bottomgif"></div>
-                
-                </Col>
-                <Col size="sm">
-                
-                <div className="PassGen bottomgif"></div>
-                
-                </Col>
-                </Row>
-            </div> */}
-            {/* </div> */}
 
             </div>
 
-            
+            <Row>
+                    <button  className="buttonRow linkedin"><a href="https://www.linkedin.com/in/patton-parham-016b851a5/" className="buttontext">LinkedIn</a></button>
+                    <button  className="buttonRow github"><a href="https://github.com/PattonParham" className="buttontext">GitHub</a></button>
+                    <button  className="buttonRow resume"><a href = "https://peaceful-river-21360.herokuapp.com/2020PattonJParhamResume.pdf" className="buttontext">Resume</a></button>
+            </Row>
         </div>
     );
 
