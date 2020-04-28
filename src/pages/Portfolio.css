@@ -1,9 +1,116 @@
-.portfoliocard{
+.portfoliocardtop{
     width: 500px;
-    height: 700px;
+    height: 500px;
   
-    margin-left: 37.5%;
-    margin-top: 100px;
-
+    margin-left:29.5%;
+    margin-top: 200px;
+    margin-bottom: 0px;
    background-color:  rgba(255, 0, 0, 0);
 }
+.portfoliocardbottom{
+width: 500px;
+height: 500px;
+background-color:  rgba(255, 0, 0, 0);
+margin-left:29.5%;
+}
+.bottomRowLinks{
+    margin-left: 600px;
+
+}
+.middlegif{
+    height: 300px;
+    width: 80%;
+    zoom: 0.4;
+    -moz-transform: scale(0.4);
+    box-shadow: 0px 0px 48px whitesmoke;
+    border-radius: 25px;
+    margin-bottom: 50px;
+    margin-left: 170px;
+}
+.middle{}
+.bottomgif{
+    height: 270px;
+    width: 160%;
+    zoom: 0.5;
+    -moz-transform: scale(0.4);
+    box-shadow: 0px 0px 48px whitesmoke;
+    border-radius: 25px;
+}
+
+.middleRowLink{
+    
+}
+
+.employeeDirectory{
+background-image: url("portfoliogifs/employeeDirectory.gif");
+height: 300px;
+width: 40%;
+zoom: 0.4;
+-moz-transform: scale(0.4);
+box-shadow: 0px 0px 48px whitesmoke;
+border-radius: 25px;
+margin-left: 625px;
+margin-top: 30px;
+margin-bottom: 50px;
+}
+.employeeDirectoryLink{
+    margin-left: 282px;
+}
+.employeeTracker{
+background-image: url("portfoliogifs/employeeTracker.gif");
+margin-top:30px;
+margin-left: 300px;
+}
+.employeeTrackerLink{
+    margin-left: 180px;
+
+}
+
+
+.InnerJoin{
+    background-image: url("portfoliogifs/Inner-Join-Pic.png");
+    margin-top:30px;
+    margin-left: 300px;
+}
+.InnerJoinLink{
+ margin-left: 180px;
+
+  
+}
+
+.PassGen{
+    background-image: url("portfoliogifs/PassGen.gif");
+    margin-left: 250px;
+    transform: scaleX(.8);
+    margin-top: 30px;
+    
+}
+.PassGenLink{
+margin-left: 110px;
+   position: absolute;
+}
+
+.TakeAHike{
+    background-image: url("portfoliogifs/TakeAHike.gif");
+    height: 270px;
+    margin-right: 100px;
+    transform: scaleX(.8);
+    object-fit: contain;
+    margin-top: 30px;
+    
+}
+.TakeAHikeLink{
+   margin-left: 60px;
+}
+
+.Weather{
+    margin-left: 125px;
+    background-image: url("portfoliogifs/Weather.gif");
+    transform: scaleX(.8);
+    object-fit: contain;
+    margin-top: 30px;
+}
+.WeatherLink{
+    margin-left:143px;
+}
+

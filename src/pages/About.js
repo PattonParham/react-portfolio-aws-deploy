@@ -14,6 +14,7 @@ const About = () => {
 
 
             <div className="abouttext">
+                <p className="paragraph">
             Having a background in technological science with a BS 
 in Audio Engineering from Belmont University (Honors Program), 
 I decided to further my passion and career by learning 
@@ -23,6 +24,7 @@ creativity and logic-puzzle solving involved in the process of
 developing a website or application. It is my highest objective to 
 bring my enthusiasm for technology, innovation and creation into a 
 full-time position.
+                </p>
             </div>
           
             
