@@ -66,3 +66,68 @@ margin-left: 1150px;
         margin-left: 50px;
     }
 }
+
+@media only screen and (max-width: 1024px){
+    .about{
+        margin-left: 200px;
+        font-size: 15px;
+    }
+    .contact{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .portfolio{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .about{
+        margin-left: 180px;
+        font-size: 15px;
+    }
+    .contact{
+        margin-left: 15px;
+        font-size: 15px;
+    }
+    .portfolio{
+        margin-left: 15px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .about{
+        margin-left: 160px;
+        font-size: 14px;
+    }
+    .contact{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .portfolio{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width: 320px){
+    .about{
+        margin-left: 140px;
+        font-size: 12px;
+    }
+    .contact{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .portfolio{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .link{
+        margin-top: 10px;
+    }
+
+}

@@ -34,3 +34,29 @@
 .E{
     margin-bottom: 50px;
 }
+ 
+@media only screen and (max-width: 1250px){
+    .contactcard{
+        margin-left: 25%;
+    }
+   
+}
+@media only screen and (max-width: 1100px){
+    .contactcard{
+        margin-left: 20%;
+    }
+   
+}
+@media only screen and (max-width: 950px){
+    .contactcard{
+        margin-left: 15%;
+    }
+   
+}
+
+@media only screen and (max-width: 800px){
+    .contactcard{
+        margin-left: 7.5%;
+    }
+   
+}

@@ -5,6 +5,7 @@ import {Col, Row, Container} from "../components/Grid/Grid";
 const Contact = () => {
 
     return(
+        <div>
         <div className="contactcard">
             <form action="mailto:patton.parham@verizon.net" method="post" enctype="text/plain" className="form">
                 <label for="exampleFormControlInput1">Name:</label>
@@ -37,6 +38,7 @@ const Contact = () => {
                 </Row>
             </form>
 
+        </div>
         </div>
     );
 
