@@ -50,16 +50,114 @@ margin-top: 200px;
   }
  
 }
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 1024px){
   .aboutcard{
-      margin-left: 15%;
+    margin-left: 0%;
+}
+.imagesize{
+  margin-top: 50px;
+}
+}
+
+@media only screen and (max-width: 768px){
+  .imagesize{
+    margin-top: 50px;
   }
+  .aboutcard{
+    margin-left: 6%;
+    width: 300px;
+    margin-top: 0px;
+
+}
+.image{
+  margin-left: 60px;
+  width: 60%;
+}
+.abouttext{
+  font-size: 12px;
+  margin-top: 150px;
+}
  
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 414px){
   .aboutcard{
-      margin-left: 7.5%;
-  }
+    margin-left: 3.25%;
+    width: 300px;
+    margin-top: 0px;
+
+}
+.image{
+  margin-left: 60px;
+  width: 60%;
+}
+.abouttext{
+  font-size: 14px;
+  margin-top: 150px;
+}
+}
+@media only screen and (max-width: 411px){
+  .aboutcard{
+    margin-left: 3%;
+    width: 300px;
+    margin-top: 0px;
+
+}
+.image{
  
+  width: 60%;
+}
+.abouttext{
+  font-size: 14px;
+  margin-top: 150px;
+}
+}
+@media only screen and (max-width: 375px){
+  .aboutcard{
+    margin-left: 2%;
+    width: 300px;
+    margin-top: 0px;
+
+}
+.image{
+  
+  width: 60%;
+}
+.abouttext{
+  font-size: 14px;
+  margin-top: 150px;
+}
+}
+@media only screen and (max-width: 360px){
+  .aboutcard{
+    margin-left: 2%;
+    width: 300px;
+    margin-top: 0px;
+
+}
+.image{
+  
+  width: 60%;
+}
+.abouttext{
+  font-size: 12px;
+  margin-top: 150px;
+}
+}
+
+@media only screen and (max-width: 320px){
+  .aboutcard{
+    margin-left: 1%;
+    width: 300px;
+    margin-top: 0px;
+
+}
+.image{
+  margin-left: 60px;
+  width: 60%;
+}
+.abouttext{
+  font-size: 12px;
+  margin-top: 150px;
+}
 }
