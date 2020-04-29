@@ -7,6 +7,14 @@
     margin-bottom: 0px;
    background-color:  rgba(255, 0, 0, 0);
 }
+.placeholder{
+    background-color:  rgba(255, 0, 0, 0);
+    border: none;
+    color: whitesmoke;
+}
+.placeholderMiddle{
+    height: 20px;
+}
 .portfoliocardbottom{
 width: 500px;
 height: 500px;
@@ -55,7 +63,8 @@ margin-bottom: 50px;
 }
 .employeeDirectoryLink{
     margin-left: 282px;
-    color: whitesmoke
+    color: whitesmoke;
+    
 }
 .employeeTracker{
 background-image: url("portfoliogifs/employeeTracker.gif");
@@ -63,9 +72,10 @@ margin-top:30px;
 margin-left: 300px;
 }
 .employeeTrackerLink{
-    margin-left: 180px;
-    color: whitesmoke
-
+    margin-left: 150px;
+    color: whitesmoke;
+    
+   
 }
 
 
@@ -76,10 +86,12 @@ margin-left: 300px;
 }
 .InnerJoinLink{
  margin-left: 180px;
- color: whitesmoke
+ color: whitesmoke;
+ display: inline;
+}
 
   
-}
+
 
 .PassGen{
     background-image: url("portfoliogifs/PassGen.gif");
@@ -89,7 +101,7 @@ margin-left: 300px;
     
 }
 .PassGenLink{
-margin-left: 110px;
+margin-left: 80px;
    position: absolute;
    color: whitesmoke
 }
@@ -116,7 +128,7 @@ margin-left: 110px;
     margin-top: 30px;
 }
 .WeatherLink{
-    margin-left:143px;
+    margin-left:115px;
     color: whitesmoke
 }
 
@@ -162,7 +174,20 @@ margin-left: 160px;
     margin-left: 110px;
 }
 }
+@media only screen and (min-width: 1025px){
+    .mobilecard{
+        display: none;
+    }
+}
+@media only screen and (max-width:1024px){
+.nonmobilecard{
+    display: none;
+}
 
+.mobilecard{
+   
+}
+}
 @media only screen and (max-width: 1000px){
     .portfoliocardtop{
         margin-left:12%; 
