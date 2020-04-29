@@ -8,15 +8,15 @@ const Contact = () => {
         <div>
         <div className="contactcard">
             <form action="mailto:patton.parham@verizon.net" method="post" enctype="text/plain" className="form">
-                <label for="exampleFormControlInput1">Name:</label>
+                <label for="exampleFormControlInput1" className="formlabel">Name:</label>
                 <br></br>
                 <input type="text" name="name" className="form-control E"></input>
-                <label for="exampleFormControlInput1">Email address:</label>
+                <label for="exampleFormControlInput1" className="formlabel">Email address:</label>
                 <br></br>
                 <input type="text" name="mail" className="form-control E"></input>
-                <label for="exampleFormControlTextarea1">Message:</label>
+                <label for="exampleFormControlTextarea1" className="formlabel">Message:</label>
                 <br></br>
-                <textarea type="text" name="comment" className="form-control" id="exampleFormControlTextarea1"></textarea>
+                <textarea type="text" name="comment" className="form-control message" id="exampleFormControlTextarea1"></textarea>
                 <br></br>
                 <Row>
                 <button type="submit" value="Send" className="btn submitbtn" id = "mobilecontactbtn">
