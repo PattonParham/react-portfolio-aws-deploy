@@ -183,31 +183,108 @@ margin-left: 160px;
 .nonmobilecard{
     display: none;
 }
+.portfoliocardtop{
+    margin-left:-3%;
+    margin-top: 50px;
+}
+.employeeDirectory{
 
-.mobilecard{
-   
+margin-left: 300px;
+width: 60%;
+zoom: 0.3;
+
 }
+.employeeDirectoryLink{
+    margin-left: 90px;
 }
-@media only screen and (max-width: 1000px){
-    .portfoliocardtop{
-        margin-left:12%; 
-    }
-    .linkedin{
-        margin-left: 228px;
-    }
-    .github{
-        margin-left: 50px;
-    }
-    .resume{
-        margin-left: 50px;
-    }
+.employeeTracker{
+width: 60%;
+zoom: 0.3;
+margin-left: 120px;
+}
+.employeeTrackerLink{
+    margin-left: 45px;
+}
+.InnerJoin{
+width: 60%;
+zoom: 0.3;
+}
+.InnerJoinLink{
+    margin-left: 120px;
+
+}
+.TakeAHike{
+width: 60%;
+zoom: 0.3;
+margin-left: 300px;
+transform: none;
+height: 252px;
+transform: scaleY(1.2);
+margin-top: 60px;
+}
+.TakeAHikeLink{
+    margin-left: 100px;
+
+}
+.Weather{
+    width: 60%;
+    zoom: 0.3;
+    transform: none;
+    height: 300px;
+    transform: scale(1.05);
+    margin-top: 35px;
+
+}
+.WeatherLink{
+    margin-left: 95px;
+}
+.PassGen{
+width: 60%;
+zoom: 0.3;
+width: 60%;
+height: 50%;
+zoom: 0.3;
+margin-left: 120px;
+transform: scaleY(1.6);
+margin-top: 80px;
+}
+.PassGenLink{
+    margin-left: 30px;
+}
+.linkedin{
+    margin-left: 110px;
+    transform: scale(.8);
+}
+.github{
+    margin-left: 110px;
+    transform: scale(.8);
+}
+.resume{
+    margin-left: 110px;
+    transform: scale(.8);
 }
 
-@media only screen and (max-width: 900px){
-    .portfoliocardtop{
-        margin-left:5%; 
-    }
-    .linkedin{
-        margin-left: 110px;
-    }
+}
+
+@media only screen and (max-width: 414px){
+    .PassGenLink{
+        margin-left: 0px;
+    } 
+    .employeeDirectory{
+
+        margin-left: 300px;
+        width: 20%;
+        zoom: 0.2;
+        
+        }
+        .PassGen{
+            width: 60%;
+            zoom: 0.3;
+            width: 60%;
+            height: 100%;
+            zoom: 0.2;
+            margin-left:00px;
+            transform: scaleY(1.6);
+            margin-top: 80px;
+            }
 }

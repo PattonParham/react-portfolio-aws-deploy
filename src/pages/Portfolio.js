@@ -95,10 +95,29 @@ const Portfolio = () => {
 
 
             <div className="portfoliocardtop mobilecard">
-                <Row className="topRow">
-                    <Col size="sm">
-                    <a href = "https://serene-ravine-67154.herokuapp.com/" className="employeeDirectoryLink">Employee Directory</a>
-                <div className="employeeDirectory gif"></div>
+            <Row className="middleRowLink">
+                    
+                    <Col size="sm-6">
+                        
+                        <a href = "https://serene-ravine-67154.herokuapp.com/" className="employeeDirectoryLink"> <button className="placeholder">Employee Directory</button></a>
+                        
+                        </Col>
+                        <Col size="sm-6">
+                        
+                        <a href="https://pattonparham.github.io/Password-Generator/"  className="PassGenLink"><button className="placeholder">Password Generator</button></a>
+                        
+                        </Col>  
+                   
+                    </Row>    
+            <Row className="middleRow">
+                    <Col size="sm-6">
+                    
+                <div className="employeeDirectory middlegif"></div>
+               
+                </Col>
+                <Col size="sm-6">
+                
+                <div className="PassGen middlegif"></div>
                 
                 </Col>
 
@@ -139,7 +158,7 @@ const Portfolio = () => {
                    <Container>
                    <a href = "https://jackjewell.github.io/TakeAHike//" className="TakeAHikeLink"><button className="placeholder">Take A Hike</button></a>
                 <a href = "https://pattonparham.github.io/Weather-Dashboard/" className="WeatherLink"><button className="placeholder">Weather Dashboard</button></a>
-                <a href = "https://pattonparham.github.io/Password-Generator/" className=""><button className="placeholder PassGenLink">Password Generator</button></a>
+               
                 </Container>
                 </Row>
                 </Col>
@@ -155,11 +174,7 @@ const Portfolio = () => {
                 <div className="Weather bottomgif"></div>
                 
                 </Col>
-                <Col size="sm">
-                
-                <div className="PassGen bottomgif"></div>
-                
-                </Col>
+ 
                 </Row>
                 
                 </div>
