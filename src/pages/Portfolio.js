@@ -97,12 +97,12 @@ const Portfolio = () => {
             <div className="portfoliocardtop mobilecard">
             <Row className="middleRowLink">
                     
-                    <Col size="sm-6">
+                    <Col size="xs-6">
                         
                         <a href = "https://serene-ravine-67154.herokuapp.com/" className="employeeDirectoryLink"> <button className="placeholder">Employee Directory</button></a>
                         
                         </Col>
-                        <Col size="sm-6">
+                        <Col size=" xs-6">
                         
                         <a href="https://pattonparham.github.io/Password-Generator/"  className="PassGenLink"><button className="placeholder">Password Generator</button></a>
                         
@@ -114,9 +114,7 @@ const Portfolio = () => {
                     
                 <div className="employeeDirectory middlegif"></div>
                
-                </Col>
-                <Col size="sm-6">
-                
+               
                 <div className="PassGen middlegif"></div>
                 
                 </Col>
@@ -125,12 +123,12 @@ const Portfolio = () => {
                 <div className="middle">
                 <Row className="middleRowLink">
                     
-                <Col size="sm-6">
+                <Col size="xs-6">
                     
                     <a href = "https://immense-hamlet-86412.herokuapp.com/" className="InnerJoinLink"> <button className="placeholder">Inner-Join</button></a>
                     
                     </Col>
-                    <Col size="sm-6">
+                    <Col size="-6">
                     
                     <a href="https://github.com/PattonParham/Employee-Tracker" className="employeeTrackerLink"><button className="placeholder">Employee Tracker</button></a>
                     

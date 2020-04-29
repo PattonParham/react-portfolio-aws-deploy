@@ -203,7 +203,7 @@ zoom: 0.3;
 margin-left: 120px;
 }
 .employeeTrackerLink{
-    margin-left: 45px;
+    margin-left: 120px;
 }
 .InnerJoin{
 width: 60%;
@@ -211,6 +211,7 @@ zoom: 0.3;
 }
 .InnerJoinLink{
     margin-left: 120px;
+    
 
 }
 .TakeAHike{
@@ -242,14 +243,16 @@ margin-top: 60px;
 width: 60%;
 zoom: 0.3;
 width: 60%;
-height: 50%;
+height: 200px;
 zoom: 0.3;
-margin-left: 120px;
+margin-left: 1000px;
 transform: scaleY(1.6);
-margin-top: 80px;
+margin-top: -300px;
+
+
 }
 .PassGenLink{
-    margin-left: 30px;
+    margin-left: 75px;
 }
 .linkedin{
     margin-left: 110px;
@@ -267,24 +270,119 @@ margin-top: 80px;
 }
 
 @media only screen and (max-width: 414px){
+    .portfoliocardtop{
+        margin-left: -0.75%;
+    }
     .PassGenLink{
         margin-left: 0px;
     } 
     .employeeDirectory{
 
-        margin-left: 300px;
-        width: 20%;
-        zoom: 0.2;
+    margin-left: 450px;
+    width: 19%;
+    zoom: 0.2;
         
         }
-        .PassGen{
-            width: 60%;
-            zoom: 0.3;
-            width: 60%;
-            height: 100%;
-            zoom: 0.2;
-            margin-left:00px;
-            transform: scaleY(1.6);
-            margin-top: 80px;
-            }
+    .PassGen{
+    width: 19%;
+    height: 200px;
+    zoom: 0.2;
+    margin-left:1250px;
+    transform: scaleY(1.6);
+    margin-top: -300px;
+  
+    transform: scaleY(1.6);
+    }
+            
+    .InnerJoin{
+    width: 19%;
+    zoom: 0.2;
+    margin-left: 450px;
+    }
+    .InnerJoinLink{
+    margin-left: 110px;
+                
+    }
+
+    .employeeTracker{
+        width: 19%;
+        zoom: 0.2;
+        margin-left: 1250px;
+        margin-top: -345px;
+    }
+    .employeeTrackerLink{
+        margin-left: 60px;
+    }
+      
+    .TakeAHike{
+    width: 19%;
+    zoom: 0.2;
+    margin-left: 450px;
+    transform: none;
+    height: 252px;
+    transform: scaleY(1.2);
+    margin-top: 60px;
+    }
+    .TakeAHikeLink{
+    margin-left: 75px;
+    }
+
+    .Weather{
+  
+    width: 19%;
+    zoom: 0.2;
+    margin-left: 1250px;
+    margin-top: -272px;
+    }
+    .WeatherLink{
+        margin-left: 45px;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .portfoliocardtop{
+        margin-left: -2%;
+    }
+}
+
+@media only screen and (max-width: 360px){
+.WeatherLink{
+    margin-left: 40px;
+}
+.employeeDirectoryLink{
+    margin-left: 78px;
+}
+.PassGenLink{
+    margin-left: 12px;
+}
+}
+@media only screen and (max-width: 320px){
+    .portfoliocardtop{
+        margin-left: -3%;
+    }
+    .PassGenLink{
+        font-size: 13px;
+        margin-top: 2px;
+        margin-left: 20px;
+    }
+    .employeeDirectoryLink{
+        font-size: 13px; 
+    }
+    .InnerJoinLink{
+        font-size: 13px;
+        margin-left:115px;
+    }
+    .employeeTrackerLink{
+        font-size: 13px;
+        margin-left: 65px;
+    }
+    .TakeAHikeLink{
+        font-size: 13px;
+        margin-left: 82px;
+    }
+    .WeatherLink{
+        font-size: 13px;
+        margin-left: 50px;
+    }
+
 }
