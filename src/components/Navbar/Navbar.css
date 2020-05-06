@@ -8,9 +8,13 @@
 
 .link{
    
-    margin-left: 95px;
+    margin-left: 65px;
     margin-top: 20px;
     text-decoration: none;
+}
+.name{
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 .about{
@@ -35,29 +39,23 @@ margin-left: 1150px;
 
 @media only screen and (max-width: 1500px){
     .about{
-        margin-left: 625px;
+        margin-left: 930px;
     }
-    .contact{
-        margin-left: 410px;
-    }
+
    
 }
 
 @media only screen and (max-width: 1300px){
     .about{
-        margin-left: 450px;
+        margin-left: 600px;
     }
-    .contact{
-        margin-left: 100px;
-    }
-    .portfolio{
-        margin-left: 370px;
-    }
+ 
+
 }
 
 @media only screen and (max-width: 1100px){
     .about{
-        margin-left: 300px;
+        margin-left: 450px;
     }
     .contact{
         margin-left: 50px;
@@ -84,7 +82,7 @@ margin-left: 1150px;
 
 @media only screen and (max-width: 414px){
     .about{
-        margin-left: 180px;
+        margin-left: 110px;
         font-size: 15px;
     }
     .contact{
@@ -99,7 +97,22 @@ margin-left: 1150px;
 
 @media only screen and (max-width: 375px){
     .about{
-        margin-left: 160px;
+        margin-left: 90px;
+        font-size: 14px;
+    }
+    .contact{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+    .portfolio{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+}
+@media only screen and (max-width: 360px){
+    .about{
+        margin-left: 90px;
         font-size: 14px;
     }
     .contact{
@@ -115,7 +128,7 @@ margin-left: 1150px;
 
 @media only screen and (max-width: 320px){
     .about{
-        margin-left: 180px;
+        margin-left: 45px;
         font-size: 14px;
     }
     .contact{

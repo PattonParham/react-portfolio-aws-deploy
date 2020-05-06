@@ -8,6 +8,10 @@ const Navbar = () => {
        
         <div className="Navbar">
           <Row>
+
+            <div className="name">
+              <p className="text">Patton Parham</p>
+            </div>
                 
             <div className="about link">
            
