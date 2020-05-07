@@ -10,7 +10,7 @@ const Portfolio = () => {
             <div className="portfoliocardtop nonmobilecard">
                 <Row className="topRow">
                     <Col size="sm">
-                    <a href = "https://serene-ravine-67154.herokuapp.com/" className="employeeDirectoryLink">Employee Directory</a>
+                    <a href = "https://aqueous-beyond-24181.herokuapp.com/" className="employeeDirectoryLink">GenSplice</a>
                 <div className="employeeDirectory gif"></div>
                 
                 </Col>
@@ -22,7 +22,7 @@ const Portfolio = () => {
               
                     <Col size="sm-6">
                     
-                <a href = "https://immense-hamlet-86412.herokuapp.com/" className="InnerJoinLink"> <button className="placeholder">Inner-Join</button></a>
+                <a href = "https://serene-ravine-67154.herokuapp.com/" className="InnerJoinLink"> <button className="placeholder">Employee Directory</button></a>
                 
                 </Col>
                 <Col size="sm-6">
@@ -99,7 +99,7 @@ const Portfolio = () => {
                     
                     <Col size="xs-6">
                         
-                        <a href = "https://serene-ravine-67154.herokuapp.com/" className="employeeDirectoryLink"> <button className="placeholder">Employee Directory</button></a>
+                        <a href = "https://aqueous-beyond-24181.herokuapp.com/" className="employeeDirectoryLink"> <button className="placeholder">GenSplice</button></a>
                         
                         </Col>
                         <Col size=" xs-6">
@@ -125,7 +125,7 @@ const Portfolio = () => {
                     
                 <Col size="xs-6">
                     
-                    <a href = "https://immense-hamlet-86412.herokuapp.com/" className="InnerJoinLink"> <button className="placeholder">Inner-Join</button></a>
+                    <a href = "https://serene-ravine-67154.herokuapp.com/" className="InnerJoinLink"> <button className="placeholder">Employee Directory</button></a>
                     
                     </Col>
                     <Col size="-6">
