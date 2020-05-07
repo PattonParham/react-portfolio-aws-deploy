@@ -277,6 +277,9 @@ margin-top: -300px;
     .PassGenLink{
         margin-left: 0px;
     } 
+    .employeeDirectoryLink{
+        margin-left: 100px;
+    }
     .employeeDirectory{
 
     margin-left: 450px;
@@ -336,7 +339,7 @@ margin-top: -300px;
     margin-top: -272px;
     }
     .WeatherLink{
-        margin-left: 45px;
+        margin-left: 150px;
     }
 }
 
@@ -364,27 +367,27 @@ margin-top: -300px;
     .PassGenLink{
         font-size: 13px;
         margin-top: 2px;
-        margin-left: 15px;
+        margin-left: 120px;
     }
     .employeeDirectoryLink{
         font-size: 13px; 
-        margin-left: 35px;
+        margin-left: 50px;
     }
     .InnerJoinLink{
         font-size: 13px;
-        margin-left:115px;
+        margin-left:100px;
     }
     .employeeTrackerLink{
         font-size: 13px;
-        margin-left: 40px;
+        margin-left: 10px;
     }
     .TakeAHikeLink{
         font-size: 13px;
-        margin-left: 62px;
+        margin-left: 55px;
     }
     .WeatherLink{
         font-size: 13px;
-        margin-left: -20px;
+        margin-left: -25px;
     }
 
 }
