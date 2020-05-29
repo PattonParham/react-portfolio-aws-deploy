@@ -188,6 +188,17 @@ margin-left: 160px;
     margin-left:-3%;
     margin-top: 50px;
 }
+
+.resume{
+margin-top: -50px;
+}
+.github{
+margin-top: 20px;
+}
+.linkedin{
+    margin-top: 20px;
+}
+
 .employeeDirectory{
 
 margin-left: 300px;
@@ -273,6 +284,15 @@ margin-top: -300px;
 @media only screen and (max-width: 414px){
     .portfoliocardtop{
         margin-left: -0.75%;
+    }
+    .resume{
+        margin-top: -150px;
+    }
+    .github{
+
+    }
+    .linkedin{
+
     }
     .PassGenLink{
         margin-left: 0px;
@@ -383,11 +403,11 @@ margin-top: -300px;
     }
     .TakeAHikeLink{
         font-size: 13px;
-        margin-left: 55px;
+        margin-left: 100px;
     }
     .WeatherLink{
         font-size: 13px;
-        margin-left: -25px;
+        margin-left: 100px;
     }
 
 }

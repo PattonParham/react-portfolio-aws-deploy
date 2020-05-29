@@ -2,6 +2,8 @@ import React from "react";
 import {Link} from "react-router-dom";
 import {Col, Row, Container} from "../components/Grid/Grid";
 import "./Portfolio.css";
+import PortfolioTW from "./Portfolio.tw";
+
 
 const Portfolio = () => {
 
@@ -151,14 +153,19 @@ const Portfolio = () => {
                 </Row>
                 <div className="Links">
                     <Col size="lg">
-                <Row>
-                    
-                   <Container>
-                   <a href = "https://jackjewell.github.io/TakeAHike//" className="TakeAHikeLink"><button className="placeholder">Take A Hike</button></a>
+                <div className="row">
+                <div className="w-1/2">
+                <div className="row">
+                <a href = "https://jackjewell.github.io/TakeAHike//" className="TakeAHikeLink"><button className="placeholder">Take A Hike</button></a>
+                </div>
+                </div>
+                <div className="w-1/2">
+                <div className="row">
                 <a href = "https://pattonparham.github.io/Weather-Dashboard/" className="WeatherLink"><button className="placeholder">Weather Dashboard</button></a>
-               
-                </Container>
-                </Row>
+                </div>
+                </div>
+                </div>
+                
                 </Col>
                 </div>
                 <Row className="bottomRow">
@@ -180,11 +187,15 @@ const Portfolio = () => {
 
 
             </div>
-
+            <Row className="mobilecard">
+            <button  className="buttonRow resume mobilecard"><a href = "https://peaceful-river-21360.herokuapp.com/2020PattonJParhamResume.pdf" className="buttontext">Resume</a></button>
+            </Row>
+            <Row className="mobilecard">
+            <button  className="buttonRow github mobilecard"><a href="https://github.com/PattonParham" className="buttontext">GitHub</a></button>
+            </Row>
             <Row className="mobilecard">
                     <button  className="buttonRow linkedin mobilecard"><a href="https://www.linkedin.com/in/patton-parham-016b851a5/" className="buttontext">LinkedIn</a></button>
-                    <button  className="buttonRow github mobilecard"><a href="https://github.com/PattonParham" className="buttontext">GitHub</a></button>
-                    <button  className="buttonRow resume mobilecard"><a href = "https://peaceful-river-21360.herokuapp.com/2020PattonJParhamResume.pdf" className="buttontext">Resume</a></button>
+                    
             </Row>
         </div>
     );
