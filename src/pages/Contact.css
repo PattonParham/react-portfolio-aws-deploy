@@ -27,10 +27,12 @@
     width: 150px;
     height: 75px;
     color: rgb(197, 197, 197);
+    border-radius: 20px;
 
 }
 #resetbtn{
     margin-left: 100px;
+    border-radius: 20px;
 }
 .E{
     margin-bottom: 50px;
