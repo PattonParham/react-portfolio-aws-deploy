@@ -1,11 +1,11 @@
 .aboutcard{
-    width: 500px;
-    height: 700px;
-  
-    margin-left: 37.5%;
-    margin-top: 100px;
+  width: 500px;
+  height: 700px;
 
-   background-color:  rgba(255, 0, 0, 0);
+  margin-left: 37.5%;
+  margin-top: 100px;
+
+ background-color:  rgba(255, 0, 0, 0);
 }
 .image{
 background-image: url("ProfilePic.jpg");
@@ -25,133 +25,137 @@ margin-top: 200px;
 
 }
 .abouttext{
-    margin-top: 100px;
-    margin-left: 20px;
-    color:rgb(197, 197, 197);
-    background-color:  rgba(255, 0, 0, 0); 
-   /* font-family: "Cinzel";
-   font-size: 15px; */
-   /* box-shadow: 0px 0px 48px whitesmoke; */
-   border-radius: 25px;
-   /* text-shadow: 0px 0px 16px whitesmoke;  */
-  
-}
+  margin-top: 100px;
+  margin-left: 20px;
+  height: 300px;
+  color:rgb(197, 197, 197);
+  background-color:  rgba(255, 0, 0, 0); 
+ /* font-family: "Cinzel";
+ font-size: 15px; */
+ box-shadow: 0px 0px 48px whitesmoke;
+ border-radius: 25px;
+ /* text-shadow: 0px 0px 16px whitesmoke;  */
+ overflow: scroll;
 
+}
+#scrollDown{
+text-align: center;
+}
 .paragraph{
-  margin: 20px;
+margin: 20px;
 }
 @media only screen and (max-width: 1250px){
-  .aboutcard{
-      margin-left: 25%;
-  }
- 
+.aboutcard{
+    margin-left: 25%;
+}
+
 }
 @media only screen and (max-width: 1100px){
-  .aboutcard{
-      margin-left: 20%;
-  }
- 
+.aboutcard{
+    margin-left: 20%;
+}
+
 }
 @media only screen and (max-width: 1024px){
-  .aboutcard{
-    margin-left: 0%;
-    width: 500px;
+.aboutcard{
+  margin-left: 0%;
+  width: 500px;
 }
 .imagesize{
-  margin-top: 50px;
-  
+margin-top: 50px;
+
 }
 .abouttext{
-  font-size: 12px;
-  width: 300px;
-  margin-left: 100px;
+font-size: 12px;
+width: 300px;
+margin-left: 100px;
 }
 }
 
 @media only screen and (max-width: 768px){
 
-  .aboutcard{
-    margin-left: 4%;
-    width: 300px;
-    margin-top: 0px;
+.aboutcard{
+  margin-left: 4%;
+  width: 300px;
+  margin-top: 0px;
 
 }
 .image{
-  margin-left: -65px;
+margin-left: -65px;
 }
 .abouttext{
-  font-size: 12px;
-  margin-left: 0px;
-  margin-top: 50px;
+font-size: 12px;
+margin-left: 0px;
+margin-top: 50px;
 }
- 
+
 }
 
 @media only screen and (max-width: 414px){
-  .aboutcard{
-    margin-left: 3.25%;
-    width: 300px;
-    margin-top: 0px;
+.aboutcard{
+  margin-left: 3.25%;
+  width: 300px;
+  margin-top: 0px;
 
 }
 .imagesize{
-  margin-top: -75px;
-  
-  }
+margin-top: -75px;
+
+}
 .image{
-  margin-left: -70px;
+margin-left: -70px;
 }
 
 .abouttext{
-  font-size: 14px;
+font-size: 14px;
 }
 }
 @media only screen and (max-width: 411px){
-  .aboutcard{
-    margin-left: 3%;
-    width: 300px;
-    margin-top: 0px;
+.aboutcard{
+  margin-left: 3%;
+  width: 300px;
+  margin-top: 0px;
 
 }
 
 .abouttext{
-  font-size: 14px;
+font-size: 14px;
 }
 }
 @media only screen and (max-width: 375px){
-  .aboutcard{
-    margin-left: 2%;
-    width: 300px;
-    margin-top: 0px;
+.aboutcard{
+  margin-left: 2%;
+  width: 300px;
+  margin-top: 0px;
 
 }
 
 .abouttext{
-  font-size: 14px;
+font-size: 14px;
 }
 }
 @media only screen and (max-width: 360px){
-  .aboutcard{
-    margin-left: 2%;
-    width: 300px;
-    margin-top: 0px;
+.aboutcard{
+  margin-left: 2%;
+  width: 300px;
+  margin-top: 0px;
 
 }
 
 .abouttext{
-  font-size: 12px;
+font-size: 12px;
 }
 }
 
 @media only screen and (max-width: 320px){
-  .aboutcard{
-    margin-left: 1%;
-    width: 300px;
-    margin-top: 0px;
+.aboutcard{
+  margin-left: 1%;
+  width: 300px;
+  margin-top: 0px;
 
 }
 
 .abouttext{
-  font-size: 12px;
+font-size: 12px;
 }
 }
